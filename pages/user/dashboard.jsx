@@ -9,6 +9,7 @@ const Dashboard = () => {
     return (
         <div>
             {currentUser && <div>UserInfo</div>}
+            test
         </div>
     );
 }

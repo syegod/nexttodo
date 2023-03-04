@@ -6,7 +6,7 @@ const Header = () => {
     const { currentUser, logout } = useAuth()
     let isAuth = !!currentUser
     return (
-        <header className='sticky top-0 h-14 border-b-2 w-full flex justify-between items-center sm:px-16'>
+        <header className='top-0 h-14 border-b-2 w-full flex justify-between items-center px-5 sm:px-16'>
             <Link href={'/'} className='text-5xl select-none'>
                 NextToDo
             </Link>
